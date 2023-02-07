@@ -1,0 +1,35 @@
+.statistics {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 350px;
+  border: 2px solid grey;
+}
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #a7e5c4;
+}
+.statList {
+  display: flex;
+  border-top: 2px solid grey;
+  background-color: #c1f2d8;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70px;
+  width: calc(400px / 5);
+}
+.item:not(:last-child) {
+  border-right: 2px solid grey;
+}
+.label {
+  margin-bottom: 20px;
+}
+.percentage {
+  margin-bottom: 5px;
+}
