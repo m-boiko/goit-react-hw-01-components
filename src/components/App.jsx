@@ -1,12 +1,16 @@
-import data from 'components/data/data.json';
+import friends from 'components/data/friends.json'
+import data from 'components/data/data.json'
 import user from 'components/data/user.json'
 import Profile from 'components/Profile/Profile'
-import Statistics from './Statistics/Statistics';
+import FriendList from './FriendList/FriendList'
+import Statistics from './Statistics/Statistics'
+
+
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -24,7 +28,7 @@ export const App = () => {
   stats={user.stats}
       />
 <Statistics title="Upload stats" stats={data} />
-
+      <FriendList friends={friends} />
     </div>
   );
 };

@@ -1,0 +1,38 @@
+.friendList {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 310px;
+  border: 2px solid grey;
+  background-color: #a7e5c4;
+}
+
+.friendList:not(:last-child) {
+  border-bottom: 2px solid grey;
+}
+.onlineIcon {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: green;
+}
+
+.offlineIcon {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: red;
+}
+
+.item {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: left;
+  padding: 2px 15px;
+}
+.item:not(:last-child) {
+  border-bottom: 2px solid grey;
+}
