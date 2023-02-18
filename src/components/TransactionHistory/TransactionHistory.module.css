@@ -1,0 +1,35 @@
+.transactionTable {
+  margin-top: 15px;
+  width: 400px;
+
+  border-radius: 5px;
+  border: 2px solid grey;
+
+  background-color: #b4e3ca;
+}
+
+.tableHeader,
+.amountList,
+.currencyList {
+  text-align: center;
+}
+
+.tableHead {
+  background-color: #74ebd5;
+  height: 30px;
+}
+
+th {
+  text-transform: uppercase;
+  color: rgb(46, 46, 46);
+  font-weight: 500;
+  border-bottom: 3px solid gray;
+}
+
+tr:nth-child(2n + 2) {
+  background-color: #8bc9be;
+}
+
+.typeList {
+  text-transform: capitalize;
+}
